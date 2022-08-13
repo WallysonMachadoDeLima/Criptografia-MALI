@@ -29,7 +29,7 @@ namespace Criptografia_MALI
                N = En, Es, Et || n = Eo, Er, Ez
                O = Kw, Kq, Ke || o = Kr, Kt, Ky
                P = Iu, Ii, Io || p = Ip, Ia, Is 
-               Q = Gm, Gn, Gv || q = Gb, Gv, GX
+               Q = Gm, Gn, Gv || q = Gb, Gq, GX
                R = Oz, Ol, Ok || r = Oj, Oh, Og
                S = Mf, Md, Ms || s = Ma, Mp, Mo
                T = Qp, Qo, Qi || t = Qu, Qy, Qt
@@ -49,7 +49,7 @@ namespace Criptografia_MALI
             string[] letras = new string[] { "Uu", "Zy", "ZZ", "zo", "zb", "Zh", "Zu", "To", "tR", "Tg", "Ta", "tt", "tr", "Rs", "Rj", "rr", "Rc", "Ro", "ri", "Ss", "Sr" ,"su", "St", "Si", "se", "Ue", "Ur", "ur", "uw", "Uq", "Un", 
                                            "Wr", "wi", "Wy", "Wa", "wb", "wç", "Vu", "Vb", "Vg", "Vh", "vp", "vf","Xc", "Xf", "Xw", "Xj", "Xp", "Xq","Ae", "Af", "Ai", "Au", "Aw", "Al", "Yo", "Yb", "Yi", "Yi", "Yq", "Yu",
                                            "Jl", "Ja", "Jw", "Je", "Jo", "Jp", "Dr", "Do", "De", "Dg", "Db", "Di", "Pj", "Pw", "Pn", "Po", "Pt", "Px", "En", "Es", "Et", "Eo", "Er", "Ez", "Kw", "Kq", "Ke", "Kr", "Kt", "Ky", "Iu", "Ii", "Io", "Ip", "Ia", "Is",
-                                           "Gm", "Gn", "Gv", "Gb", "Gv", "GX", "Oz", "Ol", "Ok", "Oj", "Oh", "Og", "Mf", "Md", "Ms", "Ma", "Mp", "Mo", "Qp", "Qo", "Qi", "Qu", "Qy", "Qt","Uw", "Um", "Ue", "Ur", "Ub", "Ut", "Sl", "Sk", "Sj", "Sh", "Sg", "Ss",
+                                           "Gm", "Gn", "Gv", "Gb", "Gq", "GX", "Oz", "Ol", "Ok", "Oj", "Oh", "Og", "Mf", "Md", "Ms", "Ma", "Mp", "Mo", "Qp", "Qo", "Qi", "Qu", "Qy", "Qt","Uw", "Un", "Ue", "Ur", "Ub", "Ut", "Sl", "Sk", "Sj", "Sh", "Sg", "Ss",
                                            "Na", "Nb", "Ne", "Nw", "Nq", "No", "Lz", "Lc", "Lx", "Lq", "Lo", "Lu", "Bt", "Bf", "Bx", "Bp", "Bl", "Bh", "Ha", "Hs", "Hj", "Hu", "Hi", "He"};
             codigos.AddRange(letras);
 
