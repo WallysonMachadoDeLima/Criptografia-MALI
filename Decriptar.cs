@@ -88,9 +88,9 @@ namespace Criptografia_MALI
             if (converter == "Qp" || converter == "Qo" || converter == "Qi") converter = "T";
             if (converter == "Qu" || converter == "Qy" || converter == "Qt") converter = "t";
 
-            //U = Uw, Un, Ue || u = Ur, Ub, Ut
-            if (converter == "Uw" || converter == "Un" || converter == "Ue") converter = "U";
-            if (converter == "Ur" || converter == "Ub" || converter == "Ut") converter = "u";
+            //U = Cw, Cm, Ce || u = Cr, Cb, Ct
+            if (converter == "Cw" || converter == "Cn" || converter == "Ce") converter = "U";
+            if (converter == "Cr" || converter == "Cb" || converter == "Ct") converter = "u";
 
             //V = Sl, Sk, Sj || v = Sh, Sg, Ss
             if (converter == "Sl" || converter == "Sk" || converter == "Sj") converter = "V";
