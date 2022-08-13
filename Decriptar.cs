@@ -36,6 +36,10 @@ namespace Criptografia_MALI
             if (converter == "Wr" || converter == "wi" || converter == "Wy") converter = "F";
             if (converter == "Wa" || converter == "wb" || converter == "wç") converter = "f";
 
+            //H = Xc, Xf, Xw || h = Xj, Xp, Xq
+            if (converter == "Xc" || converter == "Xf" || converter == "Xw") converter = "H";
+            if (converter == "Xj" || converter == "Xp" || converter == "Xq") converter = "h";
+
             return converter;
         }
     }
