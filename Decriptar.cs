@@ -65,8 +65,8 @@ namespace Criptografia_MALI
             if (converter == "Eo" || converter == "Er" || converter == "Ez") converter = "n";
 
             //O = Kw, Kq, Ke || o = Kr, Kt, Ky
-            if (converter == "En" || converter == "Es" || converter == "Et") converter = "O";
-            if (converter == "Eo" || converter == "Er" || converter == "Ez") converter = "o";
+            if (converter == "Kw" || converter == "Kq" || converter == "Ke") converter = "O";
+            if (converter == "Kr" || converter == "Kt" || converter == "Ky") converter = "o";
 
             //P = Iu, Ii, Io || p = Ip, Ia, Is
             if (converter == "Iu" || converter == "Ii" || converter == "Io") converter = "P";

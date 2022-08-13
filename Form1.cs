@@ -23,5 +23,10 @@ namespace Criptografia_MALI
             Form2 obj = new Form2();
             obj.ShowDialog();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,7 +39,6 @@ namespace Criptografia_MALI
                X = Lz, Lc, Lx || x = Lq, Lo, Lu
                Y = Bt, Bf, Bx || y = Bp, Bl, Bh
                Z = Ha, Hs, Hj || z = Hu, Hi, He
-
              
             */
 
@@ -196,17 +195,23 @@ namespace Criptografia_MALI
                 case "w":
                     converter = codigos[Convert.ToInt32(numero) + 135];
                     break;
-                case "Y":
+                case "X":
                     converter = codigos[Convert.ToInt32(numero) + 138];
                     break;
-                case "y":
+                case "x":
                     converter = codigos[Convert.ToInt32(numero) + 141];
                     break;
-                case "Z":
+                case "Y":
                     converter = codigos[Convert.ToInt32(numero) + 144];
                     break;
-                case "z":
+                case "y":
                     converter = codigos[Convert.ToInt32(numero) + 147];
+                    break;
+                case "Z":
+                    converter = codigos[Convert.ToInt32(numero) + 150];
+                    break;
+                case "z":
+                    converter = codigos[Convert.ToInt32(numero) + 153];
                     break;
             }
 
