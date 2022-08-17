@@ -49,7 +49,7 @@ namespace Criptografia_MALI
                                            "Wr", "wi", "Wy", "Wa", "wb", "wç", "Vu", "Vb", "Vg", "Vh", "vp", "vf","Xc", "Xf", "Xw", "Xj", "Xp", "Xq","Ae", "Af", "Ai", "Au", "Aw", "Al", "Yo", "Yb", "Yi", "Yi", "Yq", "Yu",
                                            "Jl", "Ja", "Jw", "Je", "Jo", "Jp", "Dr", "Do", "De", "Dg", "Db", "Di", "Pj", "Pw", "Pn", "Po", "Pt", "Px", "En", "Es", "Et", "Eo", "Er", "Ez", "Kw", "Kq", "Ke", "Kr", "Kt", "Ky", "Iu", "Ii", "Io", "Ip", "Ia", "Is",
                                            "Gm", "Gn", "Gv", "Gb", "Gq", "GX", "Oz", "Ol", "Ok", "Oj", "Oh", "Og", "Mf", "Md", "Ms", "Ma", "Mp", "Mo", "Qp", "Qo", "Qi", "Qu", "Qy", "Qt","Cw", "Cn", "Ce", "Cr", "Cb", "Ct", "Sl", "Sk", "Sj", "Sh", "Sg", "Ss",
-                                           "Na", "Nb", "Ne", "Nw", "Nq", "No", "Lz", "Lc", "Lx", "Lq", "Lo", "Lu", "Bt", "Bf", "Bx", "Bp", "Bl", "Bh", "Ha", "Hs", "Hj", "Hu", "Hi", "He"};
+                                           "Na", "Nb", "Ne", "Nw", "Nq", "No", "Lz", "Lc", "Lx", "Lq", "Lo", "Lu", "Bt", "Bf", "Bx", "Bp", "Bl", "Bh", "Ha", "Hs", "Hj", "Hu", "Hi", "He", "7A", "78", "7[", "4o", "4=", "4y", "16", "19", "1Ç", "83", "8@", "8´", "5p", "5i", "5$", "2i", "2p", "29", "98", "9)", "99", "6p", "6-", "63", "34", "3k", "3r", "0e", "0j", "0s", "**", "--", "++", "//", "%%", "$$"};
             codigos.AddRange(letras);
 
             switch (converter)
@@ -212,6 +212,42 @@ namespace Criptografia_MALI
                     break;
                 case "z":
                     converter = codigos[Convert.ToInt32(numero) + 153];
+                    break;
+                case "1":
+                    converter = codigos[Convert.ToInt32(numero) + 156];
+                    break;
+                case "2":
+                    converter = codigos[Convert.ToInt32(numero) + 159];
+                    break;
+                case "3":
+                    converter = codigos[Convert.ToInt32(numero) + 162];
+                    break;
+                case "4":
+                    converter = codigos[Convert.ToInt32(numero) + 165];
+                    break;
+                case "5":
+                    converter = codigos[Convert.ToInt32(numero) + 168];
+                    break;
+                case "6":
+                    converter = codigos[Convert.ToInt32(numero) + 171];
+                    break;
+                case "7":
+                    converter = codigos[Convert.ToInt32(numero) + 174];
+                    break;
+                case "8":
+                    converter = codigos[Convert.ToInt32(numero) + 177];
+                    break;
+                case "9":
+                    converter = codigos[Convert.ToInt32(numero) + 180];
+                    break;
+                case "0":
+                    converter = codigos[Convert.ToInt32(numero) + 183];
+                    break;
+                case "Ç":
+                    converter = codigos[Convert.ToInt32(numero) + 186];
+                    break;
+                case "ç":
+                    converter = codigos[Convert.ToInt32(numero) + 189];
                     break;
             }
 

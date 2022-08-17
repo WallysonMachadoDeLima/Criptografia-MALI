@@ -112,6 +112,37 @@ namespace Criptografia_MALI
             if (converter == "Ha" || converter == "Hs" || converter == "Hj") converter = "Z";
             if (converter == "Hu" || converter == "Hi" || converter == "He") converter = "z";
 
+            // Ç = **, --, ++ || ç = //, %%, $$
+            if (converter == "**" || converter == "--" || converter == "++") converter = "Ç";
+            if (converter == "//" || converter == "%%" || converter == "$$") converter = "ç";
+
+            // Lixo = *a, ¨5, 85, 6ç, @9, 0_, *%, [=, 6+, $7, ´9, 9+, !v, 8d, 4o, #7, -*, ?u, C#, ^~, G4, +i};
+            if (converter == "*a" || converter == "¨5" || converter == "85" || converter == "6ç" || converter == "@9" || converter == "0_" || converter == "*%"
+                || converter == "[=" || converter == "6+" || converter == "$7" || converter == "´9" || converter == "9+" || converter == "!v" || converter == "8d"
+                || converter == "4o" || converter == "#7" || converter == "-*" || converter == "?u" || converter == "C#" || converter == "^~"
+                || converter == "G4" || converter == "+i") converter = "";
+
+            // 1 = 7A, 78, 7[
+            if (converter == "7A" || converter == "78" || converter == "7[") converter = "1";
+            // 2 = 4o, 4=, 4y
+            if (converter == "4o" || converter == "4=" || converter == "4y") converter = "2";
+            // 3 = 16, 19, 1Ç
+            if (converter == "16" || converter == "19" || converter == "1Ç") converter = "3";
+            // 4 = 83, 8@, 8´
+            if (converter == "83" || converter == "8@" || converter == "8´") converter = "4";
+            // 5 = 5p, 5i, 5$
+            if (converter == "5p" || converter == "5i" || converter == "5$") converter = "5";
+            // 6 = 2i, 2p, 29
+            if (converter == "2i" || converter == "2p" || converter == "29") converter = "6";
+            // 7 = 98, 9), 99
+            if (converter == "98" || converter == "9)" || converter == "99") converter = "7";
+            // 8 = 6p, 6-, 63
+            if (converter == "6p" || converter == "6-" || converter == "63") converter = "8";
+            // 9 = 34, 3k, 3r
+            if (converter == "34" || converter == "3k" || converter == "3r") converter = "9";
+            // 0 = 0e, 0j, 0s
+            if (converter == "0e" || converter == "0j" || converter == "0s") converter = "0";
+
             return converter;
         }
     }

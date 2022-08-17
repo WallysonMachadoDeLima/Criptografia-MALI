@@ -19,12 +19,17 @@ namespace Criptografia_MALI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nosso Sistema ainda esta na fase Beta, então utilize apenas letras");
+            MessageBox.Show("Sistema em fase Beta, utilize penas \n               números e letras");
             Form2 obj = new Form2();
             obj.ShowDialog();
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
